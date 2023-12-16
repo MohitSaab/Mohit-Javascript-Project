@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="./images/expense tracker-logos_transparent.png" alt="Expense Tracker Logo">
+      <ul class="navbar">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./trackexp.html">Track Expenses</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+        <li><a href="./welcome.html" id="logoutLink">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <input type="text" class="field" placeholder="Your Name" id="nameInput">
+                <p class="error-message" id="nameError"></p>
+
+                <input type="text" class="field" placeholder="Your Email" id="emailInput">
+                <p class="error-message" id="emailError"></p>
+
+                <input type="text" class="field" placeholder="Phone" id="phoneInput">
+                <p class="error-message" id="phoneError"></p>
+
+                <textarea class="field" placeholder="Your Message" id="messageInput"></textarea>
+                <p class="error-message" id="messageError"></p>
+
+                <button id="submitButton">Submit</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div>
+        <h3>Quick Links</h3><br>
+        <ul>
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li>
+            <a href="trackexp.html">Track Experience</a>
+          </li>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+          
+        </ul>
+      </div><br>
+    
+    <p id="copyright">Copyright @ 2023 Group 4 Expense Tracker</p>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./Js/contact.js"></script>
+</body>
+
+</html>
